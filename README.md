@@ -24,7 +24,9 @@ In this machine, the only directory that exist related with web application is "
 Inspecting the index.html its just shows web page file which nothing suspicious here. We continue to investigation to CMSsite-master directory.
 
 ```bash
-CMS (Content Management System) is software for create, manage and publish web content without requiring to write raw HTML. CMS is known for its vulnerabilities which one it, is File Upload vulnerabilities. This vulnerabilities due to CMS doesn't validate the uploaded file which enable unauthorized user to upload php shells as images and execute it on the server.
+- CMS (Content Management System) is software for create, manage and publish web content without requiring to write raw HTML.
+- CMS is known for its vulnerabilities which one it, is File Upload vulnerabilities.
+- This vulnerabilities due to CMS doesn't validate the uploaded file which enable unauthorized user to upload php shells as images and execute it on the server.
 ```
 ![App Screenshot](https://github.com/Muaz1425/Infinity-Shell-Room/blob/main/Images/InfinityShellList.png)
 
@@ -68,7 +70,8 @@ Attacker sends an instruction via URL, then the server executes it on itself and
 To trace back what the attacker query to web application is by checking the directory /var/log/apache2/
 
 ```bash
-/var/log directory is the standard location for all system and application logs, so checking this directory is the best place to trace back attacker query.
+- /var/log directory is the standard location for all system and application logs
+- This directory is the best place to trace back attacker query.
 ```
 
 ![App Screenshot](https://github.com/Muaz1425/Infinity-Shell-Room/blob/main/Images/InfinityShellShowLog.png)
